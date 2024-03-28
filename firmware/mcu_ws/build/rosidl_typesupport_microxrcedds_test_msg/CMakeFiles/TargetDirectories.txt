@@ -1,9 +1,0 @@
-/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/rosidl_typesupport_microxrcedds_test_msg/CMakeFiles/install/strip.dir
-/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/rosidl_typesupport_microxrcedds_test_msg/CMakeFiles/install.dir
-/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/rosidl_typesupport_microxrcedds_test_msg/CMakeFiles/list_install_components.dir
-/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/rosidl_typesupport_microxrcedds_test_msg/CMakeFiles/rebuild_cache.dir
-/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/rosidl_typesupport_microxrcedds_test_msg/CMakeFiles/edit_cache.dir
-/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/rosidl_typesupport_microxrcedds_test_msg/CMakeFiles/test.dir
-/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/rosidl_typesupport_microxrcedds_test_msg/CMakeFiles/install/local.dir
-/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/rosidl_typesupport_microxrcedds_test_msg/CMakeFiles/rosidl_typesupport_microxrcedds_test_msg_uninstall.dir
-/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/rosidl_typesupport_microxrcedds_test_msg/CMakeFiles/uninstall.dir

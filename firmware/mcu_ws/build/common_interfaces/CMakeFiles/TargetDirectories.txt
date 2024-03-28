@@ -1,8 +1,0 @@
-/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/common_interfaces/CMakeFiles/install/local.dir
-/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/common_interfaces/CMakeFiles/install.dir
-/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/common_interfaces/CMakeFiles/list_install_components.dir
-/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/common_interfaces/CMakeFiles/rebuild_cache.dir
-/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/common_interfaces/CMakeFiles/edit_cache.dir
-/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/common_interfaces/CMakeFiles/test.dir
-/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/common_interfaces/CMakeFiles/common_interfaces_uninstall.dir
-/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/common_interfaces/CMakeFiles/uninstall.dir

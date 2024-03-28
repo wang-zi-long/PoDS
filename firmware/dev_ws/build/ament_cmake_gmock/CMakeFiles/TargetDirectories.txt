@@ -1,7 +1,0 @@
-/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/ament_cmake_gmock/CMakeFiles/install/local.dir
-/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/ament_cmake_gmock/CMakeFiles/edit_cache.dir
-/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/ament_cmake_gmock/CMakeFiles/install.dir
-/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/ament_cmake_gmock/CMakeFiles/list_install_components.dir
-/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/ament_cmake_gmock/CMakeFiles/rebuild_cache.dir
-/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/ament_cmake_gmock/CMakeFiles/ament_cmake_gmock_uninstall.dir
-/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/ament_cmake_gmock/CMakeFiles/uninstall.dir

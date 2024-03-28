@@ -1,8 +1,0 @@
-/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/rosidl_default_runtime/CMakeFiles/install/local.dir
-/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/rosidl_default_runtime/CMakeFiles/install.dir
-/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/rosidl_default_runtime/CMakeFiles/list_install_components.dir
-/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/rosidl_default_runtime/CMakeFiles/rebuild_cache.dir
-/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/rosidl_default_runtime/CMakeFiles/edit_cache.dir
-/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/rosidl_default_runtime/CMakeFiles/test.dir
-/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/rosidl_default_runtime/CMakeFiles/rosidl_default_runtime_uninstall.dir
-/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/rosidl_default_runtime/CMakeFiles/uninstall.dir

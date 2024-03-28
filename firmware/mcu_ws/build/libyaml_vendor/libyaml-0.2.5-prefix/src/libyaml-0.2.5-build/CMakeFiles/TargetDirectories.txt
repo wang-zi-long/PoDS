@@ -1,7 +1,0 @@
-/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build/CMakeFiles/install/strip.dir
-/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build/CMakeFiles/install/local.dir
-/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build/CMakeFiles/install.dir
-/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build/CMakeFiles/list_install_components.dir
-/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build/CMakeFiles/rebuild_cache.dir
-/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build/CMakeFiles/edit_cache.dir
-/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-build/CMakeFiles/yaml.dir

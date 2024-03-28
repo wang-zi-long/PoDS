@@ -1,9 +1,0 @@
-{
-  "package_name": "action_msgs",
-  "non_idl_tuples": [
-    "/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/ros2/rcl_interfaces/action_msgs:msg/GoalInfo.msg",
-    "/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/ros2/rcl_interfaces/action_msgs:msg/GoalStatus.msg",
-    "/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/ros2/rcl_interfaces/action_msgs:msg/GoalStatusArray.msg",
-    "/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/ros2/rcl_interfaces/action_msgs:srv/CancelGoal.srv"
-  ]
-}

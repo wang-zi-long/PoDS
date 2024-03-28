@@ -1,2 +1,0 @@
-/home/neu/Desktop/micro-ROS/microros_767/firmware/toolchain/bin/arm-none-eabi-ar qc librosidl_typesupport_microxrcedds_c.a  CMakeFiles/rosidl_typesupport_microxrcedds_c.dir/src/identifier.c.obj
-/home/neu/Desktop/micro-ROS/microros_767/firmware/toolchain/bin/arm-none-eabi-ranlib librosidl_typesupport_microxrcedds_c.a

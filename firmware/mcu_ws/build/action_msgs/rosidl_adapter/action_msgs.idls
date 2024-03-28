@@ -1,4 +1,0 @@
-/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/action_msgs/rosidl_adapter/action_msgs:msg/GoalInfo.idl
-/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/action_msgs/rosidl_adapter/action_msgs:msg/GoalStatus.idl
-/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/action_msgs/rosidl_adapter/action_msgs:msg/GoalStatusArray.idl
-/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/action_msgs/rosidl_adapter/action_msgs:srv/CancelGoal.idl

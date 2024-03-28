@@ -1,7 +1,0 @@
-/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/ament_cmake_python/CMakeFiles/install/local.dir
-/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/ament_cmake_python/CMakeFiles/install.dir
-/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/ament_cmake_python/CMakeFiles/list_install_components.dir
-/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/ament_cmake_python/CMakeFiles/rebuild_cache.dir
-/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/ament_cmake_python/CMakeFiles/edit_cache.dir
-/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/ament_cmake_python/CMakeFiles/ament_cmake_python_uninstall.dir
-/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/ament_cmake_python/CMakeFiles/uninstall.dir
