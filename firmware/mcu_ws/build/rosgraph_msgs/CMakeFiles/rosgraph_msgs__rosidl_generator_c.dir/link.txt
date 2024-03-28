@@ -1,0 +1,2 @@
+/home/neu/Desktop/micro-ROS/microros_767/firmware/toolchain/bin/arm-none-eabi-ar qc librosgraph_msgs__rosidl_generator_c.a  CMakeFiles/rosgraph_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosgraph_msgs/msg/detail/clock__functions.c.obj
+/home/neu/Desktop/micro-ROS/microros_767/firmware/toolchain/bin/arm-none-eabi-ranlib librosgraph_msgs__rosidl_generator_c.a

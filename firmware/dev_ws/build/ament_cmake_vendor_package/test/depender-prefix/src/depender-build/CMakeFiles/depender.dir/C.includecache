@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/ament/ament_cmake/ament_cmake_vendor_package/test/depender/src/depender.c
+string.h
+-
+exlib/exlib.h
+/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/ament/ament_cmake/ament_cmake_vendor_package/test/depender/src/exlib/exlib.h
+
+/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/ament_cmake_vendor_package/test/exlib_bad-prefix/install/include/exlib/exlib.h
+exlib/visibility_control.h
+/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/ament_cmake_vendor_package/test/exlib_bad-prefix/install/include/exlib/exlib/visibility_control.h
+
+/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/ament_cmake_vendor_package/test/exlib_bad-prefix/install/include/exlib/visibility_control.h
+

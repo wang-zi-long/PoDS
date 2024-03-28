@@ -1,0 +1,40 @@
+[3.345s] Invoking command in '/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/ament/ament_lint/ament_cpplint': AMENT_PREFIX_PATH=/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_copyright:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_pep257:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_flake8:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_lint PATH=/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_copyright/bin:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_pep257/bin:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/ament_cpplint/prefix_override:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cpplint/lib/python3.8/site-packages:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_cpplint build --build-base /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/ament_cpplint/build install --record /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/ament_cpplint/install.log --single-version-externally-managed
+[3.525s] running egg_info
+[3.525s] creating ../../../build/ament_cpplint/ament_cpplint.egg-info
+[3.525s] writing ../../../build/ament_cpplint/ament_cpplint.egg-info/PKG-INFO
+[3.526s] writing dependency_links to ../../../build/ament_cpplint/ament_cpplint.egg-info/dependency_links.txt
+[3.526s] writing entry points to ../../../build/ament_cpplint/ament_cpplint.egg-info/entry_points.txt
+[3.526s] writing requirements to ../../../build/ament_cpplint/ament_cpplint.egg-info/requires.txt
+[3.526s] writing top-level names to ../../../build/ament_cpplint/ament_cpplint.egg-info/top_level.txt
+[3.526s] writing manifest file '../../../build/ament_cpplint/ament_cpplint.egg-info/SOURCES.txt'
+[3.550s] reading manifest file '../../../build/ament_cpplint/ament_cpplint.egg-info/SOURCES.txt'
+[3.555s] writing manifest file '../../../build/ament_cpplint/ament_cpplint.egg-info/SOURCES.txt'
+[3.555s] running build
+[3.555s] running build_py
+[3.555s] creating /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/ament_cpplint/build
+[3.557s] creating /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/ament_cpplint/build/lib
+[3.557s] creating /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/ament_cpplint/build/lib/ament_cpplint
+[3.557s] copying ament_cpplint/__init__.py -> /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/ament_cpplint/build/lib/ament_cpplint
+[3.557s] copying ament_cpplint/main.py -> /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/ament_cpplint/build/lib/ament_cpplint
+[3.557s] copying ament_cpplint/cpplint.py -> /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/ament_cpplint/build/lib/ament_cpplint
+[3.557s] running install
+[3.558s] running install_lib
+[3.558s] creating /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cpplint/lib/python3.8/site-packages/ament_cpplint
+[3.558s] copying /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/ament_cpplint/build/lib/ament_cpplint/__init__.py -> /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cpplint/lib/python3.8/site-packages/ament_cpplint
+[3.558s] copying /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/ament_cpplint/build/lib/ament_cpplint/main.py -> /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cpplint/lib/python3.8/site-packages/ament_cpplint
+[3.558s] copying /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/ament_cpplint/build/lib/ament_cpplint/cpplint.py -> /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cpplint/lib/python3.8/site-packages/ament_cpplint
+[3.558s] byte-compiling /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cpplint/lib/python3.8/site-packages/ament_cpplint/__init__.py to __init__.cpython-38.pyc
+[3.558s] byte-compiling /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cpplint/lib/python3.8/site-packages/ament_cpplint/main.py to main.cpython-38.pyc
+[3.560s] byte-compiling /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cpplint/lib/python3.8/site-packages/ament_cpplint/cpplint.py to cpplint.cpython-38.pyc
+[3.582s] running install_data
+[3.582s] copying package.xml -> /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cpplint/share/ament_cpplint
+[3.582s] creating /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cpplint/share/ament_index
+[3.582s] creating /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cpplint/share/ament_index/resource_index
+[3.582s] creating /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cpplint/share/ament_index/resource_index/packages
+[3.582s] copying resource/ament_cpplint -> /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cpplint/share/ament_index/resource_index/packages
+[3.583s] running install_egg_info
+[3.584s] Copying ../../../build/ament_cpplint/ament_cpplint.egg-info to /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cpplint/lib/python3.8/site-packages/ament_cpplint-0.12.9-py3.8.egg-info
+[3.584s] running install_scripts
+[3.605s] Installing ament_cpplint script to /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cpplint/bin
+[3.606s] writing list of installed files to '/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/ament_cpplint/install.log'
+[4.302s] Invoked command in '/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/ament/ament_lint/ament_cpplint' returned '0': AMENT_PREFIX_PATH=/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_copyright:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_pep257:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_flake8:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_lint PATH=/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_copyright/bin:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_pep257/bin:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/ament_cpplint/prefix_override:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cpplint/lib/python3.8/site-packages:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_cpplint build --build-base /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/ament_cpplint/build install --record /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/ament_cpplint/install.log --single-version-externally-managed

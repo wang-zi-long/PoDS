@@ -1,0 +1,14 @@
+{
+  "package_name": "nav_msgs",
+  "non_idl_tuples": [
+    "/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/ros2/common_interfaces/nav_msgs:msg/GridCells.msg",
+    "/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/ros2/common_interfaces/nav_msgs:msg/MapMetaData.msg",
+    "/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/ros2/common_interfaces/nav_msgs:msg/OccupancyGrid.msg",
+    "/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/ros2/common_interfaces/nav_msgs:msg/Odometry.msg",
+    "/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/ros2/common_interfaces/nav_msgs:msg/Path.msg",
+    "/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/ros2/common_interfaces/nav_msgs:srv/GetMap.srv",
+    "/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/ros2/common_interfaces/nav_msgs:srv/GetPlan.srv",
+    "/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/ros2/common_interfaces/nav_msgs:srv/LoadMap.srv",
+    "/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/ros2/common_interfaces/nav_msgs:srv/SetMap.srv"
+  ]
+}

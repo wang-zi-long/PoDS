@@ -1,0 +1,1 @@
+cmd='/usr/bin/cmake;-DCMAKE_INSTALL_PREFIX=/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/uncrustify_vendor/uncrustify_vendor_install;-DCMAKE_BUILD_TYPE=;-Wno-dev;--no-warn-unused-cli;-GUnix Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'

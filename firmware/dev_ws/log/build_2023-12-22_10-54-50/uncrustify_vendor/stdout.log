@@ -1,0 +1,216 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.6 (/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/uncrustify_vendor
+[35m[1mScanning dependencies of target uncrustify-0.72.0[0m
+[ 12%] [34m[1mCreating directories for 'uncrustify-0.72.0'[0m
+[ 25%] [34m[1mPerforming download step (git clone) for 'uncrustify-0.72.0'[0m
+[ 37%] [34m[1mPerforming patch step for 'uncrustify-0.72.0'[0m
+[ 50%] [34m[1mNo update step for 'uncrustify-0.72.0'[0m
+[ 62%] [34m[1mPerforming configure step for 'uncrustify-0.72.0'[0m
+Not searching for unused variables given on the command line.
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found PythonInterp: /usr/bin/python (found version "3.8.10") 
+-- Performing Test CXXFLAG_Wall
+-- Performing Test CXXFLAG_Wall - Success
+-- Performing Test CXXFLAG_Wextra
+-- Performing Test CXXFLAG_Wextra - Success
+-- Performing Test CXXFLAG_Wshadow
+-- Performing Test CXXFLAG_Wshadow - Success
+-- Performing Test CXXFLAG_Wpointer_arith
+-- Performing Test CXXFLAG_Wpointer_arith - Success
+-- Performing Test CXXFLAG_Wcast_qual
+-- Performing Test CXXFLAG_Wcast_qual - Success
+-- Performing Test CXXFLAG_Wcast_align
+-- Performing Test CXXFLAG_Wcast_align - Success
+-- Performing Test CXXFLAG_Wc_11_extensions
+-- Performing Test CXXFLAG_Wc_11_extensions - Failed
+-- Looking for C++ include inttypes.h
+-- Looking for C++ include inttypes.h - found
+-- Looking for C++ include memory.h
+-- Looking for C++ include memory.h - found
+-- Looking for C++ include stdint.h
+-- Looking for C++ include stdint.h - found
+-- Looking for C++ include stdlib.h
+-- Looking for C++ include stdlib.h - found
+-- Looking for C++ include strings.h
+-- Looking for C++ include strings.h - found
+-- Looking for C++ include string.h
+-- Looking for C++ include string.h - found
+-- Looking for C++ include sys/stat.h
+-- Looking for C++ include sys/stat.h - found
+-- Looking for C++ include sys/types.h
+-- Looking for C++ include sys/types.h - found
+-- Looking for C++ include unistd.h
+-- Looking for C++ include unistd.h - found
+-- Looking for C++ include utime.h
+-- Looking for C++ include utime.h - found
+-- Looking for stdbool.h
+-- Looking for stdbool.h - found
+-- Looking for memset
+-- Looking for memset - found
+-- Looking for strcasecmp
+-- Looking for strcasecmp - found
+-- Looking for strchr
+-- Looking for strchr - not found
+-- Looking for strdup
+-- Looking for strdup - found
+-- Looking for strerror
+-- Looking for strerror - found
+-- Looking for strtol
+-- Looking for strtol - found
+-- Looking for strtoul
+-- Looking for strtoul - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of _Bool
+-- Check size of _Bool - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.72.0-prefix/src/uncrustify-0.72.0-build
+[ 75%] [34m[1mPerforming build step for 'uncrustify-0.72.0'[0m
+[35m[1mScanning dependencies of target generate_version_header[0m
+[  2%] [34m[1mGenerating version header[0m
+-- Version: '0.72.0-dirty'
+[  2%] Built target generate_version_header
+[  5%] [34m[1mGenerating options.cpp[0m
+[  5%] [34m[1mGenerating option_enum.h[0m
+[  5%] [34m[1mGenerating option_enum.cpp[0m
+[  8%] [34m[1mGenerating punctuator_table.h[0m
+[  8%] [34m[1mGenerating token_names.h[0m
+[35m[1mScanning dependencies of target uncrustify[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_asm_colon.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_add.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_assign.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_func_proto.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_eigen_comma_init.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_left_shift.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_func_params.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_init_brace.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_oc_msg_spec.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_log_al.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_oc_decl_colon.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_same_func_call_params.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_tab_column.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_struct_initializers.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_nl_cont.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_oc_msg_colons.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_preprocessor.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_stack.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_tools.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_trailing_comments.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_typedefs.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_var_def_brace.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/backup.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/args.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/brace_cleanup.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/braces.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/chunk_list.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/ChunkStack.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/combine.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/combine_fix_mark.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/combine_labels.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/combine_tools.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/combine_skip.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/compat_posix.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/compat_win32.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/cs_top_is_question.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/detect.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/enum_cleanup.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/flag_braced_init_list.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/flag_decltype.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/flag_parens.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/frame_list.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/indent.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/keywords.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/lang_pawn.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/language_tools.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/logmask.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/logger.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/log_rules.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/md5.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/newlines.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/option.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/options_for_QT.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/output.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/parens.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/ParseFrame.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/pcf_flags.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/quick_align_again.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/punctuators.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/remove_extra_returns.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/semicolons.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/sorting.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/space.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/tokenize_cleanup.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/tokenize.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/uncrustify.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/uncrustify_emscripten.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/uncrustify_types.cpp.o[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/unc_text.cpp.o[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/unc_tools.cpp.o[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/unicode.cpp.o[0m
+[ 94%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/universalindentgui.cpp.o[0m
+[ 94%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/width.cpp.o[0m
+[ 94%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/option_enum.cpp.o[0m
+[ 97%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/options.cpp.o[0m
+[100%] [32m[1mLinking CXX executable uncrustify[0m
+[100%] Built target uncrustify
+[ 87%] [34m[1mPerforming install step for 'uncrustify-0.72.0'[0m
+[  2%] [34m[1mGenerating version header[0m
+-- Version: '0.72.0-dirty'
+[  2%] Built target generate_version_header
+[100%] Built target uncrustify
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/uncrustify_vendor/uncrustify_vendor_install/bin/uncrustify
+[100%] [34m[1mCompleted 'uncrustify-0.72.0'[0m
+[100%] Built target uncrustify-0.72.0
+-- Install configuration: ""
+-- Installing: /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/uncrustify_vendor
+-- Installing: /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/uncrustify_vendor/bin
+-- Installing: /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/uncrustify_vendor/bin/uncrustify
+-- Installing: /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/uncrustify_vendor/share/ament_index/resource_index/package_run_dependencies/uncrustify_vendor
+-- Installing: /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/uncrustify_vendor/share/ament_index/resource_index/parent_prefix_path/uncrustify_vendor
+-- Installing: /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/uncrustify_vendor/share/uncrustify_vendor/environment/ament_prefix_path.sh
+-- Installing: /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/uncrustify_vendor/share/uncrustify_vendor/environment/ament_prefix_path.dsv
+-- Installing: /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/uncrustify_vendor/share/uncrustify_vendor/environment/path.sh
+-- Installing: /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/uncrustify_vendor/share/uncrustify_vendor/environment/path.dsv
+-- Installing: /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/uncrustify_vendor/share/uncrustify_vendor/local_setup.bash
+-- Installing: /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/uncrustify_vendor/share/uncrustify_vendor/local_setup.sh
+-- Installing: /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/uncrustify_vendor/share/uncrustify_vendor/local_setup.zsh
+-- Installing: /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/uncrustify_vendor/share/uncrustify_vendor/local_setup.dsv
+-- Installing: /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/uncrustify_vendor/share/uncrustify_vendor/package.dsv
+-- Installing: /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/uncrustify_vendor/share/ament_index/resource_index/packages/uncrustify_vendor
+-- Installing: /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/uncrustify_vendor/share/uncrustify_vendor/cmake/uncrustify_vendorConfig.cmake
+-- Installing: /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/uncrustify_vendor/share/uncrustify_vendor/cmake/uncrustify_vendorConfig-version.cmake
+-- Installing: /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/uncrustify_vendor/share/uncrustify_vendor/package.xml

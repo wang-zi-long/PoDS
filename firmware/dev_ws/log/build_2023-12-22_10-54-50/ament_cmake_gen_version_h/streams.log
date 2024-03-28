@@ -1,0 +1,82 @@
+[0.274s] Invoking command in '/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/ament_cmake_gen_version_h': AMENT_PREFIX_PATH=/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_gtest:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_test:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_core:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_package CMAKE_PREFIX_PATH=/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_gtest:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_test:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_core:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/gtest_vendor:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/gtest_vendor/lib/x86_64-linux-gnu/pkgconfig:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/gtest_vendor/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_test/lib/python3.8/site-packages:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/ament/ament_cmake/ament_cmake_gen_version_h -DCMAKE_INSTALL_PREFIX=/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_gen_version_h
+[0.308s] -- The C compiler identification is GNU 9.4.0
+[0.342s] -- The CXX compiler identification is GNU 9.4.0
+[0.344s] -- Check for working C compiler: /usr/bin/cc
+[0.387s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.389s] -- Detecting C compiler ABI info
+[0.450s] -- Detecting C compiler ABI info - done
+[0.459s] -- Detecting C compile features
+[0.460s] -- Detecting C compile features - done
+[0.460s] -- Check for working CXX compiler: /usr/bin/c++
+[0.529s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.529s] -- Detecting CXX compiler ABI info
+[0.590s] -- Detecting CXX compiler ABI info - done
+[0.599s] -- Detecting CXX compile features
+[0.599s] -- Detecting CXX compile features - done
+[0.599s] -- Found ament_cmake_core: 1.3.6 (/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake)
+[0.788s] -- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter 
+[0.890s] -- Found ament_cmake_gtest: 1.3.6 (/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake)
+[0.963s] -- Create new version file for version 1.3.6
+[1.042s] -- Create new version file for version 1.3.6
+[1.106s] -- Create new version file for version 1.3.6
+[1.177s] -- Create new version file for version 1.3.6
+[1.179s] -- Found gtest sources under '/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.189s] -- Looking for pthread.h
+[1.244s] -- Looking for pthread.h - found
+[1.244s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.297s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.298s] -- Check if compiler accepts -pthread
+[1.346s] -- Check if compiler accepts -pthread - yes
+[1.346s] -- Found Threads: TRUE  
+[1.468s] -- Configuring done
+[1.477s] -- Generating done
+[1.478s] -- Build files have been written to: /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/ament_cmake_gen_version_h
+[1.950s] Invoked command in '/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/ament_cmake_gen_version_h' returned '0': AMENT_PREFIX_PATH=/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_gtest:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_test:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_core:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_package CMAKE_PREFIX_PATH=/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_gtest:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_test:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_core:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/gtest_vendor:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/gtest_vendor/lib/x86_64-linux-gnu/pkgconfig:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/gtest_vendor/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_test/lib/python3.8/site-packages:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/ament/ament_cmake/ament_cmake_gen_version_h -DCMAKE_INSTALL_PREFIX=/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_gen_version_h
+[1.952s] Invoking command in '/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/ament_cmake_gen_version_h': AMENT_PREFIX_PATH=/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_gtest:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_test:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_core:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_package CMAKE_PREFIX_PATH=/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_gtest:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_test:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_core:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/gtest_vendor:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/gtest_vendor/lib/x86_64-linux-gnu/pkgconfig:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/gtest_vendor/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_test/lib/python3.8/site-packages:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/ament_cmake_gen_version_h -- -j20 -l20
+[1.977s] [35m[1mScanning dependencies of target gtest[0m
+[1.982s] [35m[1mScanning dependencies of target ament_generate_version_header__some_lib[0m
+[1.982s] [35m[1mScanning dependencies of target gtest_main[0m
+[1.988s] [  8%] [34m[1mGenerating ament_generate_version_header/version.hpp[0m
+[1.999s] [ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.999s] [ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[2.003s] [ 25%] Built target ament_generate_version_header__some_lib
+[2.730s] [ 33%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[2.749s] [ 33%] Built target gtest_main
+[4.158s] [ 41%] [32m[1mLinking CXX static library libgtest.a[0m
+[4.186s] [ 41%] Built target gtest
+[4.193s] [35m[1mScanning dependencies of target test_ament_generate_version_header[0m
+[4.193s] [35m[1mScanning dependencies of target test_ament_cmake_gen_version_h[0m
+[4.203s] [ 50%] [32mBuilding CXX object CMakeFiles/test_ament_generate_version_header.dir/test/test_version_hpp.cpp.o[0m
+[4.203s] [ 66%] [32mBuilding CXX object CMakeFiles/test_ament_cmake_gen_version_h.dir/test/test_version_h.cpp.o[0m
+[4.203s] [ 58%] [32mBuilding CXX object CMakeFiles/test_ament_cmake_gen_version_h.dir/test/test_version_custom.cpp.o[0m
+[4.204s] [ 75%] [32mBuilding CXX object CMakeFiles/test_ament_cmake_gen_version_h.dir/test/test_version1_h.cpp.o[0m
+[4.206s] [ 83%] [32mBuilding CXX object CMakeFiles/test_ament_cmake_gen_version_h.dir/test/test_version2_h.cpp.o[0m
+[4.613s] [ 91%] [32m[1mLinking CXX executable test_ament_generate_version_header[0m
+[4.686s] [ 91%] Built target test_ament_generate_version_header
+[4.714s] [100%] [32m[1mLinking CXX executable test_ament_cmake_gen_version_h[0m
+[4.783s] [100%] Built target test_ament_cmake_gen_version_h
+[4.791s] Invoked command in '/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/ament_cmake_gen_version_h' returned '0': AMENT_PREFIX_PATH=/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_gtest:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_test:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_core:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_package CMAKE_PREFIX_PATH=/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_gtest:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_test:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_core:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/gtest_vendor:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/gtest_vendor/lib/x86_64-linux-gnu/pkgconfig:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/gtest_vendor/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_test/lib/python3.8/site-packages:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/ament_cmake_gen_version_h -- -j20 -l20
+[4.819s] Invoking command in '/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/ament_cmake_gen_version_h': AMENT_PREFIX_PATH=/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_gtest:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_test:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_core:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_package CMAKE_PREFIX_PATH=/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_gtest:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_test:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_core:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/gtest_vendor:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/gtest_vendor/lib/x86_64-linux-gnu/pkgconfig:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/gtest_vendor/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_test/lib/python3.8/site-packages:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/ament_cmake_gen_version_h
+[4.824s] -- Install configuration: ""
+[4.824s] -- Installing: /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_gen_version_h/share/ament_index/resource_index/package_run_dependencies/ament_cmake_gen_version_h
+[4.824s] -- Installing: /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_gen_version_h/share/ament_index/resource_index/parent_prefix_path/ament_cmake_gen_version_h
+[4.824s] -- Installing: /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/environment/ament_prefix_path.sh
+[4.824s] -- Installing: /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/environment/ament_prefix_path.dsv
+[4.824s] -- Installing: /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/environment/path.sh
+[4.824s] -- Installing: /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/environment/path.dsv
+[4.824s] -- Installing: /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/local_setup.bash
+[4.824s] -- Installing: /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/local_setup.sh
+[4.824s] -- Installing: /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/local_setup.zsh
+[4.824s] -- Installing: /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/local_setup.dsv
+[4.824s] -- Installing: /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/package.dsv
+[4.824s] -- Installing: /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_gen_version_h/share/ament_index/resource_index/packages/ament_cmake_gen_version_h
+[4.825s] -- Installing: /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/cmake/ament_cmake_gen_version_h-extras.cmake
+[4.825s] -- Installing: /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/cmake/ament_cmake_gen_version_hConfig.cmake
+[4.825s] -- Installing: /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/cmake/ament_cmake_gen_version_hConfig-version.cmake
+[4.825s] -- Installing: /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/package.xml
+[4.825s] -- Up-to-date: /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/cmake
+[4.825s] -- Installing: /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/cmake/generate_version_header.cmake.in
+[4.825s] -- Installing: /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/cmake/version.h.in
+[4.825s] -- Installing: /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/cmake/ament_generate_version_header.cmake
+[4.825s] -- Installing: /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/cmake/ament_cmake_gen_version_h.cmake
+[4.826s] Invoked command in '/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/ament_cmake_gen_version_h' returned '0': AMENT_PREFIX_PATH=/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_gtest:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_test:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_core:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_package CMAKE_PREFIX_PATH=/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_gtest:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_test:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_core:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/gtest_vendor:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/gtest_vendor/lib/x86_64-linux-gnu/pkgconfig:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/gtest_vendor/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_cmake_test/lib/python3.8/site-packages:/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/install/ament_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/ament_cmake_gen_version_h

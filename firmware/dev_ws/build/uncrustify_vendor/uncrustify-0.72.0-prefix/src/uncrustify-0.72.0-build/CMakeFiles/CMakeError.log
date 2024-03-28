@@ -1,0 +1,58 @@
+Performing C++ SOURCE FILE Test CXXFLAG_Wc_11_extensions failed with the following output:
+Change Dir: /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.72.0-prefix/src/uncrustify-0.72.0-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f4835/fast && make[3]: Entering directory '/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.72.0-prefix/src/uncrustify-0.72.0-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f4835.dir/build.make CMakeFiles/cmTC_f4835.dir/build
+make[4]: Entering directory '/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.72.0-prefix/src/uncrustify-0.72.0-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f4835.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -DCXXFLAG_Wc_11_extensions   -Wc++11-extensions -o CMakeFiles/cmTC_f4835.dir/src.cxx.o -c /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.72.0-prefix/src/uncrustify-0.72.0-build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wc++11-extensions'; did you mean '-fms-extensions'?
+make[4]: *** [CMakeFiles/cmTC_f4835.dir/build.make:66: CMakeFiles/cmTC_f4835.dir/src.cxx.o] Error 1
+make[4]: Leaving directory '/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.72.0-prefix/src/uncrustify-0.72.0-build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:121: cmTC_f4835/fast] Error 2
+make[3]: Leaving directory '/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.72.0-prefix/src/uncrustify-0.72.0-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Determining if the strchr exist failed with the following output:
+Change Dir: /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.72.0-prefix/src/uncrustify-0.72.0-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3e982/fast && make[3]: Entering directory '/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.72.0-prefix/src/uncrustify-0.72.0-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_3e982.dir/build.make CMakeFiles/cmTC_3e982.dir/build
+make[4]: Entering directory '/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.72.0-prefix/src/uncrustify-0.72.0-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3e982.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align    -o CMakeFiles/cmTC_3e982.dir/CheckSymbolExists.cxx.o -c /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.72.0-prefix/src/uncrustify-0.72.0-build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.72.0-prefix/src/uncrustify-0.72.0-build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.72.0-prefix/src/uncrustify-0.72.0-build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:17:18: error: address of overloaded function with no contextual type information
+   17 |   return ((int*)(&strchr))[argc];
+      |                 ~^~~~~~~~
+make[4]: *** [CMakeFiles/cmTC_3e982.dir/build.make:66: CMakeFiles/cmTC_3e982.dir/CheckSymbolExists.cxx.o] Error 1
+make[4]: Leaving directory '/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.72.0-prefix/src/uncrustify-0.72.0-build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:121: cmTC_3e982/fast] Error 2
+make[3]: Leaving directory '/home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.72.0-prefix/src/uncrustify-0.72.0-build/CMakeFiles/CMakeTmp'
+
+
+File /home/neu/Desktop/micro-ROS/microros_767/firmware/dev_ws/build/uncrustify_vendor/uncrustify-0.72.0-prefix/src/uncrustify-0.72.0-build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <inttypes.h>
+#include <memory.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <strings.h>
+#include <string.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <unistd.h>
+#include <utime.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strchr
+  return ((int*)(&strchr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}

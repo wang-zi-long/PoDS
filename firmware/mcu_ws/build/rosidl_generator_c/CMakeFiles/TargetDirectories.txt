@@ -1,0 +1,12 @@
+/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/rosidl_generator_c/CMakeFiles/install/strip.dir
+/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/rosidl_generator_c/CMakeFiles/install/local.dir
+/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/rosidl_generator_c/CMakeFiles/install.dir
+/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/rosidl_generator_c/CMakeFiles/list_install_components.dir
+/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/rosidl_generator_c/CMakeFiles/rebuild_cache.dir
+/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/rosidl_generator_c/CMakeFiles/ament_cmake_python_build_rosidl_generator_c_egg.dir
+/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/rosidl_generator_c/CMakeFiles/edit_cache.dir
+/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/rosidl_generator_c/CMakeFiles/test.dir
+/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/rosidl_generator_c/CMakeFiles/ament_cmake_python_copy_rosidl_generator_c_setup.dir
+/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/rosidl_generator_c/CMakeFiles/ament_cmake_python_copy_rosidl_generator_c.dir
+/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/rosidl_generator_c/CMakeFiles/rosidl_generator_c_uninstall.dir
+/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/rosidl_generator_c/CMakeFiles/uninstall.dir

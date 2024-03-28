@@ -1,0 +1,343 @@
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/util/time.c:[m[K In function '[01m[Kuxr_nanos[m[K':
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/util/time.c:60:5:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function '[01m[Kclock_gettime[m[K'; did you mean '[01m[Klocaltime[m[K'? [[01;35m[K-Wimplicit-function-declaration[m[K]
+     [01;35m[Kclock_gettime[m[K(CLOCK_REALTIME, &ts);
+     [01;35m[K^~~~~~~~~~~~~[m[K
+     [32m[Klocaltime[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/core/session/session.c:[m[K In function '[01m[Klisten_message_new[m[K':
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/core/session/session.c:875:50:[m[K [01;35m[Kwarning: [m[Kpointer targets in passing argument 3 of '[01m[Krecv_message_new[m[K' differ in signedness [[01;35m[K-Wpointer-sign[m[K]
+     while(recv_message_new(session, header_data, [01;35m[K&length[m[K, &priority, poll_ms)){
+                                                  [01;35m[K^~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/core/session/session.c:94:13:[m[K [01;36m[Knote: [m[Kexpected '[01m[Ksize_t *[m[K' {aka '[01m[Kunsigned int *[m[K'} but argument is of type '[01m[Kint *[m[K'
+ static bool [01;36m[Krecv_message_new[m[K(
+             [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/core/session/session.c:882:23:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                 pos = [01;35m[Ktemp_head[m[K;
+                       [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/core/session/session.c:887:45:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                 ucdr_init_buffer(&ub, data, [01;35m[Klength[m[K);
+                                             [01;35m[K^~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/core/session/session.c:898:19:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+             pos = [01;35m[Ktemp_head[m[K;
+                   [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/core/session/session.c:904:19:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+             pos = [01;35m[Ktemp_head[m[K;
+                   [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/core/session/session.c:926:37:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+         ucdr_init_buffer(&ub, data, [01;35m[Khisght_length[m[K);
+                                     [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/core/session/session.c:[m[K In function '[01m[Ksend_message_new[m[K':
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/core/session/session.c:1074:96:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kuint8_t[m[K' {aka '[01m[Kunsigned char[m[K'} from '[01m[Kint8_t[m[K' {aka '[01m[Ksigned char[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+     bool sent = session->comm->send_msg_new(session->comm->instance, buffer, length, priority, [01;35m[Kqos[m[K);
+                                                                                                [01;35m[K^~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:[m[K In function '[01m[Kuxr_get_next_octet[m[K':
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/core/session/session.c:[m[K In function '[01m[Krecv_message_new[m[K':
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/core/session/session.c:1118:90:[m[K [01;35m[Kwarning: [m[Kpassing argument 4 of '[01m[Ksession->comm->recv_msg_new[m[K' makes integer from pointer without a cast [[01;35m[K-Wint-conversion[m[K]
+     bool received = session->comm->recv_msg_new(session->comm->instance, buffer, length, [01;35m[Kpriority[m[K, poll_ms);
+                                                                                          [01;35m[K^~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/core/session/session.c:1118:90:[m[K [01;36m[Knote: [m[Kexpected '[01m[Kint[m[K' but argument is of type '[01m[Kint *[m[K'
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:72:21:[m[K [01;35m[Kwarning: [m[Kdeclaration of '[01m[Ktemp_tail[m[K' shadows a global declaration [[01;35m[K-Wshadow[m[K]
+             uint8_t [01;35m[Ktemp_tail[m[K = (uint8_t)((size_t)(framing_io->rb_tail + 1) % sizeof(framing_io->rb));
+                     [01;35m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/include/uxr/client/profile/transport/stream_framing/stream_framing_protocol.h:24[m[K,
+                 from [01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.h:22[m[K,
+                 from [01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:2[m[K:
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/freertos_apps/exp.h:22:46:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+ extern size_t dma_head, dma_tail, temp_head, [01;36m[Ktemp_tail[m[K;
+                                              [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:[m[K In function '[01m[Kuxr_add_next_octet[m[K':
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:96:47:[m[K [01;35m[Kwarning: [m[Kcomparison is always true due to limited range of data type [[01;35m[K-Wtype-limits[m[K]
+         if ((uint8_t)(framing_io->wb_pos + 1) [01;35m[K<[m[K sizeof(framing_io->wb))
+                                               [01;35m[K^[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:106:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: '[01m[Kint32_t[m[K' {aka '[01m[Klong int[m[K'} and '[01m[Kunsigned int[m[K' [[01;35m[K-Wsign-compare[m[K]
+         if (framing_io->wb_pos [01;35m[K<[m[K sizeof(framing_io->wb))
+                                [01;35m[K^[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:[m[K In function '[01m[Kuxr_add_next_octet_new[m[K':
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:125:38:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: '[01m[Klong int[m[K' and '[01m[Kunsigned int[m[K' [[01;35m[K-Wsign-compare[m[K]
+         if ((framing_io->wb_pos + 1) [01;35m[K<[m[K sizeof(framing_io->wb))
+                                      [01;35m[K^[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:135:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: '[01m[Kint32_t[m[K' {aka '[01m[Klong int[m[K'} and '[01m[Kunsigned int[m[K' [[01;35m[K-Wsign-compare[m[K]
+         if (framing_io->wb_pos [01;35m[K<[m[K sizeof(framing_io->wb))
+                                [01;35m[K^[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:[m[K In function '[01m[Kuxr_framing_write_transport[m[K':
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:167:92:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Klong unsigned int[m[K' from '[01m[Kint32_t[m[K' {aka '[01m[Klong int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+         last_written = write_cb(cb_arg, &framing_io->wb[bytes_written], framing_io->wb_pos [01;35m[K-[m[K bytes_written, errcode);
+                                                                                            [01;35m[K^[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:169:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} and '[01m[Kint32_t[m[K' {aka '[01m[Klong int[m[K'} [[01;35m[K-Wsign-compare[m[K]
+     } while (bytes_written [01;35m[K<[m[K framing_io->wb_pos && 0 < last_written);
+                            [01;35m[K^[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:171:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} and '[01m[Kint32_t[m[K' {aka '[01m[Klong int[m[K'} [[01;35m[K-Wsign-compare[m[K]
+     if (bytes_written [01;35m[K==[m[K framing_io->wb_pos)
+                       [01;35m[K^~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:[m[K In function '[01m[Kuxr_framing_write_transport_new[m[K':
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:192:96:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Klong unsigned int[m[K' from '[01m[Kint32_t[m[K' {aka '[01m[Klong int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+         last_written = write_cb_new(cb_arg, &framing_io->wb[bytes_written], framing_io->wb_pos [01;35m[K-[m[K bytes_written, errcode, priority, QoS);
+                                                                                                [01;35m[K^[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:194:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} and '[01m[Kint32_t[m[K' {aka '[01m[Klong int[m[K'} [[01;35m[K-Wsign-compare[m[K]
+     } while (bytes_written [01;35m[K<[m[K framing_io->wb_pos && 0 < last_written);
+                            [01;35m[K^[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:196:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} and '[01m[Kint32_t[m[K' {aka '[01m[Klong int[m[K'} [[01;35m[K-Wsign-compare[m[K]
+     if (bytes_written [01;35m[K==[m[K framing_io->wb_pos)
+                       [01;35m[K^~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:[m[K In function '[01m[Kuxr_write_framed_msg[m[K':
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:223:9:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Ki[m[K' [[01;35m[K-Wunused-variable[m[K]
+     int [01;35m[Ki[m[K = 0;
+         [01;35m[K^[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:[m[K In function '[01m[Kuxr_read_framed_msg2[m[K':
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:717:17:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: '[01m[Kint[m[K' and '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} [[01;35m[K-Wsign-compare[m[K]
+     if(temp_pos [01;35m[K==[m[K dma_head)
+                 [01;35m[K^~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:719:20:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+         dma_head = [01;35m[K([m[Kpos + 1) % UART_DMA_BUFFER_SIZE;
+                    [01;35m[K^[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:722:36:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+             read_cb_new(&octet, 1, [01;35m[Kdma_head[m[K);
+                                    [01;35m[K^~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:728:44:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                     read_cb_new(&octet, 1, [01;35m[Kdma_head[m[K);
+                                            [01;35m[K^~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:731:48:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                         read_cb_new(&octet, 1, [01;35m[Kdma_head[m[K);
+                                                [01;35m[K^~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:738:44:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                     read_cb_new(&octet, 1, [01;35m[Kdma_head[m[K);
+                                            [01;35m[K^~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:741:48:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                         read_cb_new(&octet, 1, [01;35m[Kdma_head[m[K);
+                                                [01;35m[K^~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:748:44:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                     read_cb_new(&octet, 1, [01;35m[Kdma_head[m[K);
+                                            [01;35m[K^~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:751:48:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                         read_cb_new(&octet, 1, [01;35m[Kdma_head[m[K);
+                                                [01;35m[K^~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:760:44:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                     read_cb_new(&octet, 1, [01;35m[Kdma_head[m[K);
+                                            [01;35m[K^~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:763:48:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                         read_cb_new(&octet, 1, [01;35m[Kdma_head[m[K);
+                                                [01;35m[K^~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:771:42:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                     dma_head = (dma_head [01;35m[K+[m[K (msg_len + 2)) % UART_DMA_BUFFER_SIZE;
+                                          [01;35m[K^[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:774:48:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                         read_cb_new(&octet, 1, [01;35m[Kdma_head[m[K);
+                                                [01;35m[K^~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:792:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: '[01m[Kint[m[K' and '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} [[01;35m[K-Wsign-compare[m[K]
+         if(temp_pos [01;35m[K>[m[K dma_head && temp_pos - dma_head > 1000){
+                     [01;35m[K^[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:792:44:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+         if(temp_pos > dma_head && temp_pos [01;35m[K-[m[K dma_head > 1000){
+                                            [01;35m[K^[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:794:24:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+             dma_head = [01;35m[K([m[Kpos + 1) % UART_DMA_BUFFER_SIZE;
+                        [01;35m[K^[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:797:40:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                 read_cb_new(&octet, 1, [01;35m[Kdma_head[m[K);
+                                        [01;35m[K^~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:803:48:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                         read_cb_new(&octet, 1, [01;35m[Kdma_head[m[K);
+                                                [01;35m[K^~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:806:52:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                             read_cb_new(&octet, 1, [01;35m[Kdma_head[m[K);
+                                                    [01;35m[K^~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:813:48:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                         read_cb_new(&octet, 1, [01;35m[Kdma_head[m[K);
+                                                [01;35m[K^~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:816:52:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                             read_cb_new(&octet, 1, [01;35m[Kdma_head[m[K);
+                                                    [01;35m[K^~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:823:48:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                         read_cb_new(&octet, 1, [01;35m[Kdma_head[m[K);
+                                                [01;35m[K^~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:826:52:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                             read_cb_new(&octet, 1, [01;35m[Kdma_head[m[K);
+                                                    [01;35m[K^~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:835:48:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                         read_cb_new(&octet, 1, [01;35m[Kdma_head[m[K);
+                                                [01;35m[K^~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:838:52:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                             read_cb_new(&octet, 1, [01;35m[Kdma_head[m[K);
+                                                    [01;35m[K^~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:846:46:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                         dma_head = (dma_head [01;35m[K+[m[K (msg_len + 2)) % UART_DMA_BUFFER_SIZE;
+                                              [01;35m[K^[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:849:52:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                             read_cb_new(&octet, 1, [01;35m[Kdma_head[m[K);
+                                                    [01;35m[K^~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:866:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: '[01m[Kint[m[K' and '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} [[01;35m[K-Wsign-compare[m[K]
+         }else if(temp_pos [01;35m[K<[m[K dma_head && (UART_DMA_BUFFER_SIZE + temp_pos) - dma_head > 1000){
+                           [01;35m[K^[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:866:75:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+         }else if(temp_pos < dma_head && (UART_DMA_BUFFER_SIZE + temp_pos) [01;35m[K-[m[K dma_head > 1000){
+                                                                           [01;35m[K^[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:868:24:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+             dma_head = [01;35m[K([m[Kpos + 1) % UART_DMA_BUFFER_SIZE;
+                        [01;35m[K^[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:871:40:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                 read_cb_new(&octet, 1, [01;35m[Kdma_head[m[K);
+                                        [01;35m[K^~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:877:48:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                         read_cb_new(&octet, 1, [01;35m[Kdma_head[m[K);
+                                                [01;35m[K^~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:880:52:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                             read_cb_new(&octet, 1, [01;35m[Kdma_head[m[K);
+                                                    [01;35m[K^~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:887:48:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                         read_cb_new(&octet, 1, [01;35m[Kdma_head[m[K);
+                                                [01;35m[K^~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:890:52:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                             read_cb_new(&octet, 1, [01;35m[Kdma_head[m[K);
+                                                    [01;35m[K^~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:897:48:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                         read_cb_new(&octet, 1, [01;35m[Kdma_head[m[K);
+                                                [01;35m[K^~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:900:52:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                             read_cb_new(&octet, 1, [01;35m[Kdma_head[m[K);
+                                                    [01;35m[K^~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:909:48:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                         read_cb_new(&octet, 1, [01;35m[Kdma_head[m[K);
+                                                [01;35m[K^~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:912:52:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                             read_cb_new(&octet, 1, [01;35m[Kdma_head[m[K);
+                                                    [01;35m[K^~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:920:46:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                         dma_head = (dma_head [01;35m[K+[m[K (msg_len + 2)) % UART_DMA_BUFFER_SIZE;
+                                              [01;35m[K^[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:923:52:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                             read_cb_new(&octet, 1, [01;35m[Kdma_head[m[K);
+                                                    [01;35m[K^~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:654:15:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kcb_arg[m[K' [[01;35m[K-Wunused-parameter[m[K]
+         [01;35m[Kvoid* cb_arg[m[K,
+         [01;35m[K~~~~~~^~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:656:16:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Klen[m[K' [[01;35m[K-Wunused-parameter[m[K]
+         [01;35m[Ksize_t len[m[K,
+         [01;35m[K~~~~~~~^~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:659:14:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Ktimeout[m[K' [[01;35m[K-Wunused-parameter[m[K]
+         [01;35m[Kint* timeout[m[K,
+         [01;35m[K~~~~~^~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:660:18:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kerrcode[m[K' [[01;35m[K-Wunused-parameter[m[K]
+         [01;35m[Kuint8_t* errcode[m[K)
+         [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:[m[K In function '[01m[Kuxr_read_framed_msg_new[m[K':
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:971:13:[m[K [01;35m[Kwarning: [m[Kdeclaration of '[01m[Kflag[m[K' shadows a global declaration [[01;35m[K-Wshadow[m[K]
+         int [01;35m[Kflag[m[K = 0;
+             [01;35m[K^~~~[m[K
+In file included from [01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/include/uxr/client/profile/transport/stream_framing/stream_framing_protocol.h:24[m[K,
+                 from [01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.h:22[m[K,
+                 from [01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:2[m[K:
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/freertos_apps/exp.h:28:12:[m[K [01;36m[Knote: [m[Kshadowed declaration is here
+ extern int [01;36m[Kflag[m[K;
+            [01;36m[K^~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:981:44:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                     read_cb_new(&octet, 1, [01;35m[Ktemp_tail[m[K);
+                                            [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:984:48:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                         read_cb_new(&octet, 1, [01;35m[Ktemp_tail[m[K);
+                                                [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:1002:48:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                         read_cb_new(&octet, 1, [01;35m[Ktemp_tail[m[K);
+                                                [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:1005:52:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                             read_cb_new(&octet, 1, [01;35m[Ktemp_tail[m[K);
+                                                    [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:1014:48:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                         read_cb_new(&octet, 1, [01;35m[Ktemp_tail[m[K);
+                                                [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:1017:52:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                             read_cb_new(&octet, 1, [01;35m[Ktemp_tail[m[K);
+                                                    [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:1032:48:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                         read_cb_new(&octet, 1, [01;35m[Ktemp_tail[m[K);
+                                                [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:1035:52:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                             read_cb_new(&octet, 1, [01;35m[Ktemp_tail[m[K);
+                                                    [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:1042:48:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                         read_cb_new(&octet, 1, [01;35m[Ktemp_tail[m[K);
+                                                [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:1045:52:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                             read_cb_new(&octet, 1, [01;35m[Ktemp_tail[m[K);
+                                                    [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:1060:44:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                     read_cb_new(&octet, 1, [01;35m[Ktemp_tail[m[K);
+                                            [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:1063:48:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                         read_cb_new(&octet, 1, [01;35m[Ktemp_tail[m[K);
+                                                [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:1069:36:[m[K [01;35m[Kwarning: [m[Kstatement with no effect [[01;35m[K-Wunused-value[m[K]
+                     [01;35m[K(*remote_addr) == octet[m[K;
+                     [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:1076:44:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                     read_cb_new(&octet, 1, [01;35m[Ktemp_tail[m[K);
+                                            [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:1079:48:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                         read_cb_new(&octet, 1, [01;35m[Ktemp_tail[m[K);
+                                                [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:1094:44:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                     read_cb_new(&octet, 1, [01;35m[Ktemp_tail[m[K);
+                                            [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:1097:48:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                         read_cb_new(&octet, 1, [01;35m[Ktemp_tail[m[K);
+                                                [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:1110:44:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                     read_cb_new(&octet, 1, [01;35m[Ktemp_tail[m[K);
+                                            [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:1113:48:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                         read_cb_new(&octet, 1, [01;35m[Ktemp_tail[m[K);
+                                                [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:1133:35:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                     if((temp_tail [01;35m[K+[m[K (framing_io->msg_len + 2)) % UART_DMA_BUFFER_SIZE > dma_tail){
+                                   [01;35m[K^[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:1138:42:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                     int temp_temp_tail = [01;35m[Ktemp_tail[m[K;
+                                          [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:1140:37:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: '[01m[Kint[m[K' and '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} [[01;35m[K-Wsign-compare[m[K]
+                     for(int i = 0;i [01;35m[K<[m[K len;i++){
+                                     [01;35m[K^[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:978:13:[m[K [01;35m[Kwarning: [m[Kenumeration value '[01m[KUXR_FRAMING_READING_CRC_LSB[m[K' not handled in switch [[01;35m[K-Wswitch[m[K]
+             [01;35m[Kswitch[m[K(framing_io->state){
+             [01;35m[K^~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:978:13:[m[K [01;35m[Kwarning: [m[Kenumeration value '[01m[KUXR_FRAMING_READING_CRC_MSB[m[K' not handled in switch [[01;35m[K-Wswitch[m[K]
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:1158:32:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} from '[01m[Kint[m[K' may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+         temp_tail = (temp_tail [01;35m[K+[m[K (framing_io->msg_len + 2)) % UART_DMA_BUFFER_SIZE;
+                                [01;35m[K^[m[K
+At top level:
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:1161:36:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+             read_cb_new(&octet, 1, [01;35m[Ktemp_tail[m[K);
+                                    [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/core/session/session.c:981:6:[m[K [01;35m[Kwarning: [m[K'[01m[Klisten_message_reliably_new[m[K' defined but not used [[01;35m[K-Wunused-function[m[K]
+ bool [01;35m[Klisten_message_reliably_new[m[K(
+      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:1164:40:[m[K [01;35m[Kwarning: [m[Kconversion to '[01m[Kint[m[K' from '[01m[Ksize_t[m[K' {aka '[01m[Kunsigned int[m[K'} may change the sign of the result [[01;35m[K-Wsign-conversion[m[K]
+                 read_cb_new(&octet, 1, [01;35m[Ktemp_tail[m[K);
+                                        [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:957:15:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kcb_arg[m[K' [[01;35m[K-Wunused-parameter[m[K]
+         [01;35m[Kvoid* cb_arg[m[K,
+         [01;35m[K~~~~~~^~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:962:14:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Ktimeout[m[K' [[01;35m[K-Wunused-parameter[m[K]
+         [01;35m[Kint* timeout[m[K,
+         [01;35m[K~~~~~^~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:963:18:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kerrcode[m[K' [[01;35m[K-Wunused-parameter[m[K]
+         [01;35m[Kuint8_t* errcode[m[K)
+         [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/custom/custom_transport.c:[m[K In function '[01m[Ksend_custom_msg_new[m[K':
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/custom/custom_transport.c:75:25:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from '[01m[Kwrite_custom_func_new[m[K' {aka '[01m[Kunsigned int (*)(struct uxrCustomTransport *, const unsigned char *, unsigned int,  unsigned char *, int,  unsigned char)[m[K'} to '[01m[Ksize_t (*)(void *, const uint8_t *, size_t,  uint8_t *)[m[K' {aka '[01m[Kunsigned int (*)(void *, const unsigned char *, unsigned int,  unsigned char *)[m[K'} [[01;35m[K-Wcast-function-type[m[K]
+                         [01;35m[K([m[Kuxr_write_cb) transport->write_new,
+                         [01;35m[K^[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/custom/custom_transport.c:75:25:[m[K [01;35m[Kwarning: [m[Kpassing argument 2 of '[01m[Kuxr_write_framed_msg_new[m[K' from incompatible pointer type [[01;35m[K-Wincompatible-pointer-types[m[K]
+                         [01;35m[K(uxr_write_cb) transport->write_new[m[K,
+                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/custom/custom_transport.c:6[m[K:
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/custom/../stream_framing/stream_framing_protocol.h:83:26:[m[K [01;36m[Knote: [m[Kexpected '[01m[Kuxr_write_cb_new[m[K' {aka '[01m[Kunsigned int (*)(void *, const unsigned char *, unsigned int,  unsigned char *, int,  unsigned char)[m[K'} but argument is of type '[01m[Ksize_t (*)(void *, const uint8_t *, size_t,  uint8_t *)[m[K' {aka '[01m[Kunsigned int (*)(void *, const unsigned char *, unsigned int,  unsigned char *)[m[K'}
+         [01;36m[Kuxr_write_cb_new write_cb_new[m[K,
+         [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/custom/custom_transport.c:[m[K In function '[01m[Kuxr_init_custom_transport[m[K':
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/custom/custom_transport.c:332:38:[m[K [01;35m[Kwarning: [m[Kassignment to '[01m[Krecv_msg_func_new[m[K' {aka '[01m[K_Bool (*)(void *, unsigned char *, unsigned int *, int,  int)[m[K'} from incompatible pointer type '[01m[K_Bool (*)(void *, uint8_t *, size_t *, int *, int)[m[K' {aka '[01m[K_Bool (*)(void *, unsigned char *, unsigned int *, int *, int)[m[K'} [[01;35m[K-Wincompatible-pointer-types[m[K]
+         transport->comm.recv_msg_new [01;35m[K=[m[K recv_custom_msg_new;
+                                      [01;35m[K^[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:1055:25:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+                         [01;35m[Kprintf("WRONG start !!!\n")[m[K;
+                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/stream_framing/stream_framing_protocol.c:1058:17:[m[K [01;36m[Knote: [m[Khere
+                 [01;36m[Kcase[m[K UXR_FRAMING_READING_SRC_ADDR:
+                 [01;36m[K^~~~[m[K

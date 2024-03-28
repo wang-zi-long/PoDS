@@ -1,0 +1,35 @@
+[2.989s] Invoking command in '/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/uros/tracetools/tracetools_read': PYTHONPATH=/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/tracetools_read/prefix_override:/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/install/tracetools_read/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/tracetools_read build --build-base /home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/tracetools_read/build install --record /home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/tracetools_read/install.log --single-version-externally-managed
+[3.169s] running egg_info
+[3.169s] creating ../../../build/tracetools_read/tracetools_read.egg-info
+[3.169s] writing ../../../build/tracetools_read/tracetools_read.egg-info/PKG-INFO
+[3.169s] writing dependency_links to ../../../build/tracetools_read/tracetools_read.egg-info/dependency_links.txt
+[3.169s] writing requirements to ../../../build/tracetools_read/tracetools_read.egg-info/requires.txt
+[3.169s] writing top-level names to ../../../build/tracetools_read/tracetools_read.egg-info/top_level.txt
+[3.170s] writing manifest file '../../../build/tracetools_read/tracetools_read.egg-info/SOURCES.txt'
+[3.191s] reading manifest file '../../../build/tracetools_read/tracetools_read.egg-info/SOURCES.txt'
+[3.192s] writing manifest file '../../../build/tracetools_read/tracetools_read.egg-info/SOURCES.txt'
+[3.192s] running build
+[3.192s] running build_py
+[3.192s] creating /home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/tracetools_read/build
+[3.192s] creating /home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/tracetools_read/build/lib
+[3.192s] creating /home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/tracetools_read/build/lib/tracetools_read
+[3.192s] copying tracetools_read/__init__.py -> /home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/tracetools_read/build/lib/tracetools_read
+[3.192s] copying tracetools_read/trace.py -> /home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/tracetools_read/build/lib/tracetools_read
+[3.192s] running install
+[3.193s] running install_lib
+[3.193s] creating /home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/install/tracetools_read/lib/python3.8/site-packages/tracetools_read
+[3.193s] copying /home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/tracetools_read/build/lib/tracetools_read/__init__.py -> /home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/install/tracetools_read/lib/python3.8/site-packages/tracetools_read
+[3.193s] copying /home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/tracetools_read/build/lib/tracetools_read/trace.py -> /home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/install/tracetools_read/lib/python3.8/site-packages/tracetools_read
+[3.193s] byte-compiling /home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/install/tracetools_read/lib/python3.8/site-packages/tracetools_read/__init__.py to __init__.cpython-38.pyc
+[3.193s] byte-compiling /home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/install/tracetools_read/lib/python3.8/site-packages/tracetools_read/trace.py to trace.cpython-38.pyc
+[3.193s] running install_data
+[3.193s] copying package.xml -> /home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/install/tracetools_read/share/tracetools_read
+[3.194s] creating /home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/install/tracetools_read/share/ament_index
+[3.194s] creating /home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/install/tracetools_read/share/ament_index/resource_index
+[3.194s] creating /home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/install/tracetools_read/share/ament_index/resource_index/packages
+[3.194s] copying resource/tracetools_read -> /home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/install/tracetools_read/share/ament_index/resource_index/packages
+[3.194s] running install_egg_info
+[3.195s] Copying ../../../build/tracetools_read/tracetools_read.egg-info to /home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/install/tracetools_read/lib/python3.8/site-packages/tracetools_read-4.1.1-py3.8.egg-info
+[3.196s] running install_scripts
+[3.214s] writing list of installed files to '/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/tracetools_read/install.log'
+[4.001s] Invoked command in '/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/uros/tracetools/tracetools_read' returned '0': PYTHONPATH=/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/tracetools_read/prefix_override:/home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/install/tracetools_read/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/tracetools_read build --build-base /home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/tracetools_read/build install --record /home/neu/Desktop/micro-ROS/microros_767/firmware/mcu_ws/build/tracetools_read/install.log --single-version-externally-managed
